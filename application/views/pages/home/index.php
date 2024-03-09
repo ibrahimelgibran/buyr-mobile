@@ -29,26 +29,26 @@
 
 <!--Hero area end-->
 <div class="hero_area">
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-        </svg>
-    </div>
-    <style>
-      /* Waves Animation start*/
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+  </svg>
+</div>
+<style>
+  /* Waves Animation start*/
 
-.hero_area {
+  .hero_area {
     position: relative;
-}
+  }
 
-.waves {
+  .waves {
     position: absolute;
     width: 100%;
     height: 8vh;
@@ -56,56 +56,56 @@
     max-height: 10px;
     bottom: 0;
     left: 0;
-}
+  }
 
-.parallax>use {
+  .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-}
+  }
 
-.parallax>use:nth-child(1) {
+  .parallax>use:nth-child(1) {
     animation-delay: -2s;
     animation-duration: 7s;
-}
+  }
 
-.parallax>use:nth-child(2) {
+  .parallax>use:nth-child(2) {
     animation-delay: -3s;
     animation-duration: 10s;
-}
+  }
 
-.parallax>use:nth-child(3) {
+  .parallax>use:nth-child(3) {
     animation-delay: -4s;
     animation-duration: 13s;
-}
+  }
 
-.parallax>use:nth-child(4) {
+  .parallax>use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
-}
+  }
 
-@keyframes move-forever {
+  @keyframes move-forever {
     0% {
-        transform: translate3d(-90px, 0, 0);
+      transform: translate3d(-90px, 0, 0);
     }
 
     100% {
-        transform: translate3d(85px, 0, 0);
+      transform: translate3d(85px, 0, 0);
     }
-}
+  }
 
 
-/*Shrinking for mobile*/
+  /*Shrinking for mobile*/
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .waves {
-        height: 40px;
-        min-height: 40px;
+      height: 40px;
+      min-height: 40px;
     }
-}
+  }
 
-/* Waves Animation end*/
-    </style>
-    <!--Hero area end-->
-    
+  /* Waves Animation end*/
+</style>
+<!--Hero area end-->
+
 
 <!-- List Item -->
 <div class="container">
@@ -137,79 +137,90 @@
 
 <!-- Sponsor -->
 <div class="dev-company-info bg-light" id="colab">
-  <div class="woy">
-    <div class="row align-items-center justify-content-center">
-      <div class="col-lg-6 col-xl-5 col-md-10">
-        <div class="dev-company-info--text text-center text-lg-start mb-5 mb-lg-0">
-          <h2 class="title">
-            Klient orang di seluruh Yogyakarta  
-          </h2>
-          <p class="text pr-xxl-88">
-          Inilah mereka yang telah bekerjasama dengan perusahaan kami
-          </p>
+    <div class="woy">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-6 col-xl-5 col-md-10">
+                <div class="dev-company-info--text text-center text-lg-start mb-5 mb-lg-0">
+                    <h2 class="title">
+                        Klient seluruh wilayah Yogyakarta
+                    </h2>
+                    <p class="text pr-xxl-88">
+                        Inilah mereka yang telah bekerjasama dengan perusahaan kami
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-xl-6 offset-xl-1">
+                <div class="dev-company-info--logo">
+                    <div class="row card-row">
+                        <div class="col-md-4 logo-wrapper">
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/iegcode.png" alt="iegcode" class="img-fluid">
+                                </div>
+                            </div>
+                            <!-- Tambahkan kelas logo-wrapper-hover -->
+                            <div class="col-md-12 logo-wrapper-hover">
+                                <div class="logo">
+                                    <img src="./images/sponsor/eskamuga.png" alt="smkmuhammdiyahgamping" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-12 logo-wrapper">
+                                <div class="logo">
+                                    <img src="./images/sponsor/buyr.png" alt="buyrnusantara" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 logo-wrapper mt-md-6">
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/nst.png" alt="nusantarasatriatama" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/swift.png" alt="swiftbeaute" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/galeri.png" alt="galeririfa" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 logo-wrapper">
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/berbrand.png" alt="berbrandstuff" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/foji.png" alt="foji" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="logo">
+                                    <img src="./images/sponsor/soim.png" alt="sotoijimonjali" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="col-lg-6 col-xl-6 offset-xl-1">
-        <div class="dev-company-info--logo">
-          <div class="row card-row">
-            <div class="col-md-4 logo-wrapper">
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/iegcode.png" alt="iegcode" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/eskamuga.png" alt="smkmuhammdiyahgamping" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/buyr.png" alt="buyrnusantara" />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 logo-wrapper mt-md-6">
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/nst.png" alt="nusantarasatriatama" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/swift.png" alt="swiftbeaute" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/galeri.png" alt="galeririfa" />
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4 logo-wrapper">
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/berbrand.png" alt="berbrandstuff" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/foji.png" alt="foji" />
-                </div>
-              </div>
-              <div class="col-md-12">
-                <div class="logo">
-                  <img src="./images/sponsor/soim.png" alt="sotoijimonjali" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </div>
+
 <style>
+  .logo img {
+    width: 100%;
+    min-width: 85px;
+    /* Atur lebar minimum logo */
+    max-width: 130px;
+    /* Atur lebar maksimum logo */
+    height: auto;
+  }
+
   .woy {
     padding: 50px;
     margin-top: -100px;
@@ -313,7 +324,7 @@
 <div class="tools-area">
   <div class="container">
     <div class="dev-section-title text-center">
-      <h2 class="title">Team GMT</h2>
+      <h2 class="title">Team Cleanee</h2>
       <p class="text">Sebuah team yang penuh semangat dan dedikasi.</p>
     </div><br>
     <style>
@@ -325,9 +336,10 @@
       }
 
       .card-img {
-        border-radius: 100%;
-        width: 100%;
-        height: auto;
+        border-radius: 48%;
+        width: 95%;
+        object-fit: cover;
+        height: 180px;
         /* Mengatur ketinggian gambar agar tidak terlalu besar */
       }
 
@@ -361,100 +373,100 @@
       </div>
       <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
         <img src="./images/team/elgibran.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
+        <h6 class="title card-title">Ibrahim El Gibran</h6>
         <p class="card-p">Chief Financial Officer</p>
       </div>
       <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
         <img src="./images/team/elgibran.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
+        <h6 class="title card-title">Ibrahim El Gibran</h6>
         <p class="card-p">Chief Financial Officer</p>
       </div>
     </div>
   </div>
 </div>
-<br><br>
+<br><br><br>
 <!-- Tools Section End -->
 
 
 <!--Hero area end-->
 <div class="hero_area">
-        <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
-            <defs>
-                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
-            </defs>
-            <g class="parallax">
-                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
-                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
-                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
-                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
-            </g>
-        </svg>
-    </div>
-    <style>
-      /* Waves Animation start*/
+  <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+    <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+    </defs>
+    <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+    </g>
+  </svg>
+</div>
+<style>
+  /* Waves Animation start*/
 
-.hero_area {
+  .hero_area {
     position: relative;
-}
+  }
 
-.waves {
+  .waves {
     position: absolute;
     width: 100%;
     height: 10vh;
     min-height: 80px;
-    max-height: 13  0px;
+    max-height: 13 0px;
     bottom: 0;
     left: 0;
-}
+  }
 
-.parallax>use {
+  .parallax>use {
     animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
-}
+  }
 
-.parallax>use:nth-child(1) {
+  .parallax>use:nth-child(1) {
     animation-delay: -2s;
     animation-duration: 7s;
-}
+  }
 
-.parallax>use:nth-child(2) {
+  .parallax>use:nth-child(2) {
     animation-delay: -3s;
     animation-duration: 10s;
-}
+  }
 
-.parallax>use:nth-child(3) {
+  .parallax>use:nth-child(3) {
     animation-delay: -4s;
     animation-duration: 13s;
-}
+  }
 
-.parallax>use:nth-child(4) {
+  .parallax>use:nth-child(4) {
     animation-delay: -5s;
     animation-duration: 20s;
-}
+  }
 
-@keyframes move-forever {
+  @keyframes move-forever {
     0% {
-        transform: translate3d(-90px, 0, 0);
+      transform: translate3d(-90px, 0, 0);
     }
 
     100% {
-        transform: translate3d(85px, 0, 0);
+      transform: translate3d(85px, 0, 0);
     }
-}
+  }
 
 
-/*Shrinking for mobile*/
+  /*Shrinking for mobile*/
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     .waves {
-        height: 40px;
-        min-height: 40px;
+      height: 40px;
+      min-height: 40px;
     }
-}
+  }
 
-/* Waves Animation end*/
-    </style>
-    <!--Hero area end-->
-    
+  /* Waves Animation end*/
+</style>
+<!--Hero area end-->
+
 
 <!-- Footer -->
 <?php $this->load->view('layouts/_footer') ?>

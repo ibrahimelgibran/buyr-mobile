@@ -4,34 +4,55 @@
 	<?php $this->load->view('layouts/_alert') ?>
 	<!-- End of alert -->
 
-	<!-- Hero -->
-	<div class="row mt-5">		
-		<div class="col">
-		<img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>" style="width: 330px">
-		</div>
-		<div class="col-5">
-			<h2 class="font-weight-bold"><?= $game['name'] ?></h2>
-			<h4 class="font-weight-normal"><?=  ucfirst($game['edition']) ?> Edition</h4>
-			<br> <br>
-			<p><?= character_limiter($game['description'], 200) ?></p>
-			<a href="#description" class="text-info font-weight-bold">View more</a>
-			<br> <br>
-			<p class="font-weight-bold">EDITION</p>
-			<h5><span class="badge badge-info badge-pill p-2"><?=  ucfirst($game['edition']) ?></span></h5>
-		</div>
-		<div class="col">
-			<div class="card">
-				<div class="card-body text-center">
-					<h2 class="text-center text-warning price mt-4 mb-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h2>
-					<form action="<?= base_url('cart/add') ?>" method="POST">
-						<input type="hidden" name="product_id" value="<?= $game['id'] ?>">
-						<button type="submit" class="btn btn-large btn-success btn-block badge-pill mb-4">ADD TO CART</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- End of hero -->
+<!-- Hero -->
+<div class="row mt-5">
+    <div class="col">
+        <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>" style="width: 330px">
+    </div>
+    <div class="col-md-5">
+      <br>
+        <div class="table-responsive">
+            <table class="table">
+                <tbody>
+                    <tr>
+                        <td class="font-weight-bold" style="border: 2px solid black;">Name</td>
+                        <td style="border: 2px solid black;"><?= $game['name'] ?></td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold" style="border: 2px solid black;">Edition</td>
+                        <td style="border: 2px solid black;"><?= ucfirst($game['edition']) ?> Edition</td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold" style="border: 2px solid black;">Description</td>
+                        <td style="border: 2px solid black;"><?= character_limiter($game['description'], 200) ?></td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold" style="border: 2px solid black;">View More</td>
+                        <td style="border: 2px solid black;"><a href="#description" class="text-info font-weight-bold">View more</a></td>
+                    </tr>
+                    <tr>
+                        <td class="font-weight-bold" style="border: 2px solid black;">EDITION</td>
+                        <td style="border: 2px solid black;"><span class="badge badge-info badge-pill p-2"><?=  ucfirst($game['edition']) ?></span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col">
+    <div class="card border-dark">
+        <div class="card-body text-center">
+            <h2 class="text-warning price mb-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h2>
+            <form action="<?= base_url('cart/add') ?>" method="POST">
+                <input type="hidden" name="product_id" value="<?= $game['id'] ?>">
+                <button type="submit" class="btn btn-success btn-block">ADD TO CART</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- End of hero -->
+
 
 	<!-- Summary -->
 	<div class="row mt-5 mb-2">
@@ -70,8 +91,10 @@
           <div class="row">
             <div class="col-md-6">
               <div class="logo-wrapper mb-5">
-                <a href="index.html" class="logo">
-                  <img src="images/logo/ieg.png" alt="logo" />
+                <a style="color:#387ADF;" class="logo">
+                <div>
+                <img src="http://localhost/gstore/images/logo/ieg.png" alt="logo" />
+                </div>
                   <span class="text">Cleanee</span>
                 </a>
                 <p>
@@ -91,7 +114,6 @@
                 </div>
                 <div class="col-4">
                   <ul class="dev-footer-list">
-                    <li><a href="#">Article</a></li>
                     <li><a href="#">Collaboration</a></li>
                     <li><a href="#">Contact</a></li>
                   </ul>

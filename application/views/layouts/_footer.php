@@ -5,7 +5,7 @@
           <div class="row">
             <div class="col-md-6">
               <div class="logo-wrapper mb-5">
-                <a href="index.html" class="logo">
+                <a href="index.php" class="logo">
                   <img src="images/logo/ieg.png" alt="logo" />
                   <span class="text">Cleanee</span>
                 </a>
@@ -20,13 +20,12 @@
                 <div class="col-4">
                   <ul class="dev-footer-list">
                     <li><a href="index.php">Home</a></li>
-                    <li><a href="#pesanan">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="#pesanan">Order Now</a></li>
                   </ul>
                 </div>
                 <div class="col-4">
                   <ul class="dev-footer-list">
-                    <li><a href="contact.html">Article</a></li>
                     <li><a href="#colab">Collaboration</a></li>
                     <li><a href="contact.html">Contact</a></li>
                   </ul>

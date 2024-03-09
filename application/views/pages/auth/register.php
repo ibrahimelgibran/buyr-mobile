@@ -1,13 +1,15 @@
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
 <div class="container">
 	<div class="row justify-content-center mt-4">
-		<div class="col-5">
+		<div class="col-md-5">
 			<div class="card">
 				<div class="card-body">
 					<div class="row justify-content-center">
 						<div class="col-10">
 							<form action="<?= base_url('register/register') ?>" method="POST" class="form-signin">
 								<div class="text-center">
-									<img class="mb-2" src="<?= base_url() ?>images/logo/logo.png" width="210" height="72">
+									<img class="mb-2" src="<?= base_url() ?>/images/sponsor/iegcode.png" width="210" height="72">
 								</div>
 			
 								<h1 class="h3 mb-3 font-weight-normal text-center">Register</h1>
