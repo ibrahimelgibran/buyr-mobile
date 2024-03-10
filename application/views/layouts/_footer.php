@@ -27,13 +27,13 @@
                 <div class="col-4">
                   <ul class="dev-footer-list">
                     <li><a href="#colab">Collaboration</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="mailto:ibrahimelgibran17@gmail.com">Contact</a></li>
                   </ul>
                 </div>
                 <div class="col-4">
                   <ul class="dev-footer-list">
                     <li>
-                      <a href="https://www.instagram.com/gmtcorp.id/"
+                      <a href="https://www.instagram.com/iegcode/"
                         >Instagram</a
                       >
                     </li>

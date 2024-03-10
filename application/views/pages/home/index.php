@@ -25,6 +25,7 @@
     <span class="sr-only">Next</span>
   </a>
 </div>
+<br>
 <!-- End of Carousel -->
 
 <!--Hero area end-->
@@ -105,6 +106,103 @@
   /* Waves Animation end*/
 </style>
 <!--Hero area end-->
+  <div class="haha">
+    <div class="container" style="margin-top: -5%;">
+      <div class="row" style="margin-top: -7%;">
+        <div class="col-md-6 py-3">
+          <br><br><br>
+          <h2 class="title-section">Kami <span class="marked">ready</span> untuk melayani anda dengan yang terbaik</h2>
+          <div class="divider"></div>
+          <p class="pusing">Cleanee merupakan sebuah layanan pengolahan sampah dengan tema zero waste dimana sampah an organik seperti plastik akan di daur ulang dan sampah rumah tangga akan di urai menjadi kompos sehingga akan mengurangi volume sampah yang tersedia.</p>
+          <form action="<?= base_url('register') ?>" method="POST">
+                <button type="submit" class="btn btn-primary">→ Daftar Now</button>
+            </form>
+              
+            
+        </div>
+        <div class="gambar col-md-6 ">
+          <div class="img-place text-center">
+            <img src="./images/logo/ba.png" style="width: 85%; height: auto;" alt=""> <!-- Ubah height menjadi auto agar proporsional -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .haha {
+      position: relative;
+      padding-top: 80px;
+      padding-bottom: -20px; /* Tambahkan padding bawah untuk memberikan ruang antara konten dan elemen berikutnya */
+      background-color: #fff;
+      overflow: hidden;
+    }
+
+    .haha p {
+      color: #898798;
+    }
+
+    .pusing {
+      margin-left: 0; /* Ubah margin-left menjadi 0 */
+    }
+
+    .title-section {
+      margin-left: 0; /* Ubah margin-left menjadi 0 */
+      max-width: 450px;
+      color: #2D2B3A;
+      font-weight: 600;
+    }
+
+    .title-section .marked {
+      position: relative;
+      color: #6C55F9;
+    }
+
+    .title-section .marked::before {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background-color: #d3ccff;
+      z-index: -1;
+    }
+
+    .title-section .marked {
+      position: relative;
+      color: #387ADF;
+    }
+
+    .title-section .marked::before {
+      content: '';
+      position: absolute;
+      bottom: 4px;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background-color: #d3ccff;
+      z-index: -1;
+    }
+
+    .divider {
+      margin-left: 0; /* Ubah margin-left menjadi 0 */
+      display: block;
+      margin-top: 16px;
+      margin-bottom: 32px;
+      width: 32px;
+      height: 3px;
+      border-radius: 40px;
+      background-color: #387ADF;
+    }
+
+    .text-center .title-section {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  </style>
+
+
 
 
 <!-- List Item -->
@@ -472,11 +570,12 @@
 <!-- End of footer -->
 
 <!-- button chackbok -->
-<button onclick="window.location.href='https://chatapp.smksmuhammadiyahgamping.sch.id/'">
+<button class="live-chat-btn" onclick="window.location.href='https://chatapp.smksmuhammadiyahgamping.sch.id/'">
   <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Live Chat
 </button>
+
 <style>
-button {
+.live-chat-btn {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -495,19 +594,20 @@ button {
   padding: 16px 24px 16px 28px;
   transition: 0.2s;
   box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
-  position: fixed; /* Tetapkan posisi tetap */
-  bottom: 20px; /* Atur jarak dari bagian bawah halaman */
-  right: 20px; /* Atur jarak dari bagian kanan halaman */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
 }
 
-button:hover {
+.live-chat-btn:hover {
   color: #516d91;
   background-color: #E5EDF5;
   box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
 }
 
-button:active {
+.live-chat-btn:active {
   box-shadow: none;
 }
 </style>
-<!-- end button chackbok -->
+
+<!--end button chackbok-->
