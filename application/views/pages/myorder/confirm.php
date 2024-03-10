@@ -19,7 +19,7 @@
 							<?= form_error('account_name', '<small class="form-text text-danger">', '</small>') ?>
 						</div>
 						<div class="form-group">
-							<label></label>
+							<label>No HP</label>
 							<input type="text" class="form-control" name="account_number">
 							<?= form_error('account_number', '<small class="form-text text-danger">', '</small>') ?>
 						</div>

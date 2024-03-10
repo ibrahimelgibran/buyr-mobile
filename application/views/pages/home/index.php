@@ -240,7 +240,7 @@
             <div class="col-lg-6 col-xl-5 col-md-10">
                 <div class="dev-company-info--text text-center text-lg-start mb-5 mb-lg-0">
                     <h2 class="title">
-                        Klient seluruh wilayah Yogyakarta
+                        Klient Seluruh Wilayah Yogyakarta
                     </h2>
                     <p class="text pr-xxl-88">
                         Inilah mereka yang telah bekerjasama dengan perusahaan kami
@@ -470,14 +470,14 @@
         <p class="card-p">Chief Executive Officer</p>
       </div>
       <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/elgibran.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Ibrahim El Gibran</h6>
-        <p class="card-p">Chief Financial Officer</p>
+        <img src="./images/team/reza.png" alt="html" class="mw-100 make-it-inline card-img" />
+        <h6 class="title card-title">Reza Apriansyah</h6>
+        <p class="card-p">Chief Operating Officer</p>
       </div>
       <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/elgibran.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Ibrahim El Gibran</h6>
-        <p class="card-p">Chief Financial Officer</p>
+        <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
+        <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
+        <p class="card-p">CFO & CMO Financial Marketing Officer</p>
       </div>
     </div>
   </div>
