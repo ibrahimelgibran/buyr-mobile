@@ -467,7 +467,47 @@
 </style>
 <!--Hero area end-->
 
-
 <!-- Footer -->
 <?php $this->load->view('layouts/_footer') ?>
 <!-- End of footer -->
+
+<!-- button chackbok -->
+<button onclick="window.location.href='https://chatapp.smksmuhammadiyahgamping.sch.id/'">
+  <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Live Chat
+</button>
+<style>
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  color: #000;
+  background-color: #e0e8ef;
+  border-style: solid;
+  border-width: 2px 2px 2px 2px;
+  border-color: rgba(255, 255, 255, 0.333);
+  border-radius: 40px 40px 40px 40px;
+  padding: 16px 24px 16px 28px;
+  transition: 0.2s;
+  box-shadow: -4px -2px 16px 0px #ffffff, 4px 2px 16px 0px rgb(95 157 231 / 48%);
+  position: fixed; /* Tetapkan posisi tetap */
+  bottom: 20px; /* Atur jarak dari bagian bawah halaman */
+  right: 20px; /* Atur jarak dari bagian kanan halaman */
+}
+
+button:hover {
+  color: #516d91;
+  background-color: #E5EDF5;
+  box-shadow: -2px -1px 8px 0px #ffffff, 2px 1px 8px 0px rgb(95 157 231 / 48%);
+}
+
+button:active {
+  box-shadow: none;
+}
+</style>
+<!-- end button chackbok -->
