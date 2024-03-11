@@ -27,7 +27,7 @@
                     <div class="text-center text-info">
                         <small>Jika Anda memerlukan bantuan atau informasi, Anda dapat menghubungi:</small>
                         <br>
-                        <small><strong>ibrahimelgibran@gmail.com | 085876076005</strong></small>
+                        <small><strong>ibrahimelgibran17@gmail.com | 085876076005</strong></small>
                     </div>
 
                     <div class="text-center mt-3">

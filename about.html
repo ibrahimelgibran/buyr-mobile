@@ -88,11 +88,11 @@
 					</nav>
 				</div>
 			</header>
-			<hr />
+
 			<!-- navbar- -->
 			<!-- Header Section End -->
 			<!-- Service Section Start -->
-			<div class="inner-service-area">
+			<div class="inner-service-area" style="margin-top: -50px">
 				<div class="container">
 					<div class="row align-items-center justify-content-center">
 						<div class="col-xl-5 col-lg-6 col-md-8 col-sm-10 mb-5 mb-lg-0">
@@ -108,8 +108,9 @@
 							<div class="dev-section-title">
 								<h2 class="title">Visi</h2>
 								<p class="text">
-									Hadir untuk mengatasi permasalah sampah hingga pengolahan
-									sampah yang terintergrasi.
+									Menjadi platform on demand service terbaik di Indonesia dalam
+									menyelesaikan permasalahan sampah dan menjadikan Indonesia
+									Zero Sampah.
 								</p>
 							</div>
 							<br />
@@ -118,8 +119,9 @@
 							<div class="dev-section-title">
 								<h2 class="title">Misi</h2>
 								<p class="text">
-									Mewujudkan pengolahan sampah terdigitilasasi dan efisien untuk
-									masyarakat
+									Memberikan solusi terpadu yang efisien dan menyeluruh untuk
+									mengatasi permasalahan sampah, dengan fokus pada pembersihan
+									lingkungan dan mengurangi sampah.
 								</p>
 							</div>
 						</div>
@@ -127,6 +129,98 @@
 				</div>
 			</div>
 			<!-- Service Section End -->
+
+			<!-- gelombang air -->
+			<div class="hero_area">
+				<svg
+					class="waves"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 24 150 28"
+					preserveAspectRatio="none"
+					shape-rendering="auto"
+				>
+					<defs>
+						<path
+							id="gentle-wave"
+							d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+						/>
+					</defs>
+					<g class="parallax">
+						<use xlink:href="#gentle-wave" x="48" y="0" fill="#387ADF" />
+						<use xlink:href="#gentle-wave" x="48" y="3" fill="#50C4ED" />
+						<use
+							xlink:href="#gentle-wave"
+							x="48"
+							y="5"
+							fill="rgba(255,255,255,0.3)"
+						/>
+						<use xlink:href="#gentle-wave" x="48" y="7" fill="#378CE7" />
+					</g>
+				</svg>
+			</div>
+
+			<style>
+				.hero_area {
+					position: relative;
+				}
+
+				.waves {
+					position: absolute;
+					width: 100%;
+					height: 10vh;
+					min-height: 100px;
+					max-height: 150px;
+					bottom: 0;
+					left: 0;
+				}
+
+				.parallax > use {
+					animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5)
+						infinite;
+				}
+
+				.parallax > use:nth-child(1) {
+					animation-delay: -2s;
+					animation-duration: 7s;
+				}
+
+				.parallax > use:nth-child(2) {
+					animation-delay: -3s;
+					animation-duration: 10s;
+				}
+
+				.parallax > use:nth-child(3) {
+					animation-delay: -4s;
+					animation-duration: 13s;
+				}
+
+				.parallax > use:nth-child(4) {
+					animation-delay: -5s;
+					animation-duration: 20s;
+				}
+
+				@keyframes move-forever {
+					0% {
+						transform: translate3d(-90px, 0, 0);
+					}
+
+					100% {
+						transform: translate3d(85px, 0, 0);
+					}
+				}
+
+				/*Shrinking for mobile*/
+
+				@media (max-width: 768px) {
+					.waves {
+						height: 40px;
+						min-height: 40px;
+					}
+				}
+			</style>
+			<!-- end gelombang air-->
+
 			<!-- Tools Section Start -->
 			<div class="tools-area">
 				<div class="container">
@@ -202,6 +296,96 @@
 				</div>
 			</div>
 			<!-- Tools Section End -->
+
+			<!-- gelombang air -->
+			<div class="hero_area">
+				<svg
+					class="waves"
+					xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
+					viewBox="0 24 150 28"
+					preserveAspectRatio="none"
+					shape-rendering="auto"
+				>
+					<defs>
+						<path
+							id="gentle-wave"
+							d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+						/>
+					</defs>
+					<g class="parallax">
+						<use xlink:href="#gentle-wave" x="48" y="0" fill="#387ADF" />
+						<use xlink:href="#gentle-wave" x="48" y="3" fill="#50C4ED" />
+						<use
+							xlink:href="#gentle-wave"
+							x="48"
+							y="5"
+							fill="rgba(255,255,255,0.3)"
+						/>
+						<use xlink:href="#gentle-wave" x="48" y="7" fill="#378CE7" />
+					</g>
+				</svg>
+			</div>
+
+			<style>
+				.hero_area {
+					position: relative;
+				}
+
+				.waves {
+					position: absolute;
+					width: 100%;
+					height: 10vh;
+					min-height: 100px;
+					max-height: 150px;
+					bottom: 0;
+					left: 0;
+				}
+
+				.parallax > use {
+					animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5)
+						infinite;
+				}
+
+				.parallax > use:nth-child(1) {
+					animation-delay: -2s;
+					animation-duration: 7s;
+				}
+
+				.parallax > use:nth-child(2) {
+					animation-delay: -3s;
+					animation-duration: 10s;
+				}
+
+				.parallax > use:nth-child(3) {
+					animation-delay: -4s;
+					animation-duration: 13s;
+				}
+
+				.parallax > use:nth-child(4) {
+					animation-delay: -5s;
+					animation-duration: 20s;
+				}
+
+				@keyframes move-forever {
+					0% {
+						transform: translate3d(-90px, 0, 0);
+					}
+
+					100% {
+						transform: translate3d(85px, 0, 0);
+					}
+				}
+
+				/*Shrinking for mobile*/
+
+				@media (max-width: 768px) {
+					.waves {
+						height: 40px;
+						min-height: 40px;
+					}
+				}
+			</style>
 
 			<!-- Footer Section Start -->
 			<div class="dev-footer-area">

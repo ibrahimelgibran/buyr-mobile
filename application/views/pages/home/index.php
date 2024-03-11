@@ -105,6 +105,7 @@
 
   /* Waves Animation end*/
 </style>
+
 <!--Hero area end-->
   <div class="haha">
     <div class="container" style="margin-top: -5%;">
