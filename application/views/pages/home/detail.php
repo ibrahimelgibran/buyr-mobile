@@ -41,7 +41,8 @@
     <div class="col">
     <div class="card border-dark">
         <div class="card-body text-center">
-            <h2 class="text-warning price mb-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h2>
+            <h2 class="text-warning price mb-4">Rp. <?= number_format($game['price'], 2, ', ','.'); ?></h2>
+            <!-- <h2 class="text-warning price mb-4">Rp. <?= number_format($game['price']); ?></h2> -->
             <form action="<?= base_url('cart/add') ?>" method="POST">
                 <input type="hidden" name="product_id" value="<?= $game['id'] ?>">
                 <button type="submit" class="btn btn-success btn-block">ADD TO CART</button>

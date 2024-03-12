@@ -19,8 +19,8 @@
                 </div> 
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="form-group">
-                            <label class="font-weight-bold">Harga</label>
+                        <div class="form-group ">
+                            <label class="font-weight-bold ">Harga</label>
                             <input type="number" class="form-control" name="price" value="<?= $product['price'] ?>">
                             <?= form_error('price', '<small class="form-text text-danger">', '</small>') ?>
                         </div>

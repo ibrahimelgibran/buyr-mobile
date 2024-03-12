@@ -111,14 +111,13 @@
   <div class="container" style="margin-top: -5%;">
     <div class="row" style="margin-top: -7%;">
       <div class="col-md-6 py-3">
-        <br><br><br>
+        <br><br>
         <h2 class="title-section">Kami <span class="marked">ready</span> untuk melayani anda dengan yang terbaik</h2>
         <div class="divider"></div>
         <p class="pusing" style="text-align:left">Cleanee merupakan sebuah layanan pengolahan sampah dengan tema zero waste dimana sampah an organik seperti plastik akan di daur ulang dan sampah rumah tangga akan di urai menjadi kompos sehingga akan mengurangi volume sampah yang tersedia.</p>
         <form action="<?= base_url('register') ?>" method="POST">
           <button type="submit" class="btn btn-primary">→ Daftar Now</button>
         </form>
-
 
       </div>
       <div class="gambar col-md-6 ">
@@ -426,7 +425,7 @@
 
 <!-- Counter Section Start -->
 <h2 class="text-center" style="font-weight: bold; margin-top:-30px; ">Our Service  <span class="team" style="color:#1777E5">Cleanee</span></h2>
-<p class="text-center mb-5">Proyek atau pekerjaan yang dapat kami kerjakan dan kolaborasikan dengan Anda.</p>
+<p class="text-center mb-5">Pekerjaan yang dapat kami kerjakan dan kolaborasikan dengan Anda.</p>
 <div class="dev-counter-section">
   <div class="anjay">
     <div class="row align-items-center card-row">
