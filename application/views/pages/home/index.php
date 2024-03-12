@@ -571,8 +571,7 @@ counters.forEach((counter) => {
         </div>
         <div class="review">
           <h4>Lingkungan yang bersih menciptakan <br> belajar yang nyaman dan produktif.</h4>
-        <p>“
-Lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang menyenangkan tetapi juga memengaruhi suasana belajar secara keseluruhan. Kebersihan ini tidak hanya memberikan kenyamanan visual tetapi juga mempengaruhi kesehatan fisik dan mental siswa, menciptakan kondisi yang ideal untuk fokus belajar dan pengembangan potensi.”</p>
+        <p>“ Program Cleanee sangat membantu lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang menyenangkan tetapi juga memengaruhi suasana belajar secara keseluruhan. Kebersihan ini tidak hanya memberikan kenyamanan visual tetapi juga mempengaruhi kesehatan fisik dan mental siswa, menciptakan kondisi yang ideal untuk fokus belajar dan pengembangan potensi. ”</p>
         </div>
       </div>
       <!-- div2 -->
@@ -588,7 +587,7 @@ Lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang meny
         </div>
         <div class="review">
           <h4>Kebersihan sampah adalah kunci untuk kulit yang sehat dan cantik.</h4>
-        <p>“ menciptakan lingkungan yang menyegarkan dan menenangkan bagi perawatan diri kita. ”</p>
+        <p>“ menciptakan lingkungan yang sehat dan bersih bagi perawatan diri kita setelah berlangganan dengan Cleanee. ”</p>
         </div>
       </div>
       <!-- div3 -->
@@ -604,7 +603,7 @@ Lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang meny
         </div>
         <div class="review dark">
           <h4>Inovasi untuk Kebebasan Teknologi dan Platform Layanan Bisnis Teknologi: Bersihkan Dengan Cerdas, Tanpa Jejak Sampah.!</h4>
-          <p>“ Melalui inovasi untuk kebebasan teknologi dan platform layanan bisnis, kami memperkenalkan solusi bersih tanpa jejak untuk mengelola limbah elektronik dan teknologi secara efisien. Bersama-sama, kita bisa menciptakan lingkungan yang lebih bersih dan berkelanjutan. Solusi kami memastikan pengelolaan limbah elektronik dan teknologi yang efisien, tanpa meninggalkan jejak berlebihan.”</p>
+          <p>“ Cleanee merupakan platform Melalui inovasi untuk kebebasan teknologi dan platform layanan bisnis, kami memperkenalkan solusi bersih tanpa jejak untuk mengelola limbah elektronik dan teknologi secara efisien. Kita bisa menciptakan lingkungan yang lebih bersih dan berkelanjutan. Solusi memastikan pengelolaan limbah elektronik dan teknologi yang efisien, tanpa meninggalkan jejak berlebihan. ”</p>
         </div>
       </div>
       <!-- div4 -->
@@ -620,7 +619,7 @@ Lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang meny
         </div>
         <div class="review dark">
           <h4>Struk Digital Mengurangi Sampah.</h4>
-        <p>“ Struk digital pembelian yang diterbitkan oleh retail melalui buyr akan muncul di dalam aplikasi, dan pengguna dapat menyimpan struk tersebut. ”</p>
+        <p>“ Cleanee memberikan Solusi struk digital pembelian yang diterbitkan oleh retail melalui buyr akan muncul di dalam aplikasi, dan pengguna dapat menyimpan struk tersebut. ”</p>
         </div>
       </div>
       <!-- div5 -->
@@ -636,7 +635,7 @@ Lingkungan yang bersih di sekolah tidak hanya menciptakan kesan visual yang meny
         </div>
         <div class="review">
           <h4>Kebersihan adalah tanggung jawab <br> kita bersama.</h4>
-        <p>“Suatu langkah yang sangat penting. Dengan memastikan bahwa sampah-sampah dikelola dan dibuang dengan benar sesuai dengan prosedur yang ditetapkan, perusahaan menciptakan lingkungan kerja yang bersih, aman, dan nyaman bagi seluruh karyawan. Kebersihan sampah juga mencerminkan komitmen perusahaan terhadap lingkungan. Dengan demikian, menjaga kebersihan sampah adalah bagian integral dari budaya kerja yang profesional dan bertanggung jawab di perusahaan.”</p>
+        <p>“ Mencerminkan suatu langkah Cleanee yang sangat penting. Dengan memastikan bahwa sampah-sampah dikelola dan dibuang dengan benar sesuai dengan prosedur yang ditetapkan, perusahaan menciptakan lingkungan kerja yang bersih, aman, dan nyaman bagi seluruh karyawan. Kebersihan sampah juga mencerminkan komitmen perusahaan terhadap lingkungan. Dengan demikian, menjaga kebersihan sampah adalah bagian integral dari budaya kerja yang profesional dan bertanggung jawab di perusahaan. ”</p>
         </div>
       </div>
     </div>
@@ -702,7 +701,7 @@ a:link,a:active,a:visited,a:hover{
     grid-column: 4/5;
     grid-row: 1/3;
     color: black;
-    background-position-x: 12rem;
+    background-position-x: 12.5rem;
     background-repeat: no-repeat;
     background-size: 23%;
     background-image: url(./images/sponsor/gmt.png);

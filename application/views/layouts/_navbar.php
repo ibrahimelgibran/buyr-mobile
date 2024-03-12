@@ -82,6 +82,7 @@
 				<?php else: ?>
 					<a class="nav-item nav-link mr-3 active" href="<?= base_url('home') ?>">HOME</a>
 					<a class="nav-item nav-link mr-3 active" href="./about.html">ABOUT US</a>
+					<a class="nav-item nav-link mr-3 active" href="#pesanan">PILIH PAKET</a>
 					<a class="nav-item nav-link mr-3 active" href="<?= base_url('login') ?>">LOGIN</a>
 					<a class="nav-item nav-link mr-3 active" href="<?= base_url('register') ?>">REGISTER</a>
 				<?php endif ?>
