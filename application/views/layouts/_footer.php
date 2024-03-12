@@ -50,7 +50,7 @@
 			<hr>	
 			<br>
             <p class="order-2 order-md-1">
-              Made With 💙 By IegCode
+            Made With 💙 By Team Cleanee
             </p>
           </div>
         </div>

@@ -15,7 +15,7 @@
             <table class="table">
                 <tbody>
                     <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">Name</td>
+                        <td class="font-weight-bold" style="border: 2px solid black;">Paket</td>
                         <td style="border: 2px solid black;"><?= $game['name'] ?></td>
                     </tr>
                     <tr>
@@ -138,7 +138,7 @@
 			<hr>	
 			<br>
             <p class="order-2 order-md-1">
-              Made With 💙 By IegCode
+            Made With 💙 By Team Cleanee
             </p>
           </div>
         </div>
