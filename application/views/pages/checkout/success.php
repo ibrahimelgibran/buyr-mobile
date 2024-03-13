@@ -4,7 +4,7 @@
 			<div class="card">
 				<h5 class="card-header">Pembayaran Berhasil</h5>	
 				<div class="card-body">
-					<h4><strong>Jumlah order : <?= $content['invoice'] ?></strong></h4>
+					<h4><strong>Kode Invoice : <?= $content['invoice'] ?></strong></h4>
 					<p>Terimakasih, sampahmu tanggung jawab kami sekarang.</p>
 					<br>
 					<p>Silakan lewati pembayaran dengan prosedur berikut:</p>

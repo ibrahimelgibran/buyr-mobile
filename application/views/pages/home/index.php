@@ -578,7 +578,7 @@ counters.forEach((counter) => {
       <div class="div2 eachdiv"  style="text-align:left" >
         <div class="userdetails">
           <div class="imgbox">
-            <img src="https://sotoijomonjali.000webhostapp.com/img/saar.jpeg" style="width:50px; height:50px" alt="">
+            <img src="./images/logo/sha.jpg" style="width:50px; height:50px" alt="">
           </div>
           <div class="detbox">
             <p class="name">ZIN SHA </p>
