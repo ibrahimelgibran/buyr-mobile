@@ -227,7 +227,7 @@
             <h6 class="card-title font-weight-bold"><?= $game['name'] ?></h6>
             <h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
             <!-- <h3 class="text-right text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3> -->
-            <a href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >Lihat Selengkapnya</a>
+            <a href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >Order dan Lihat Selengkapnya</a>
           </div>
         </div>
       </div>
