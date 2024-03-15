@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <form action="<?= base_url('checkout/create') ?>" method="POST">
                         <div class="form-group">
-                            <label for="name">Nama Penerima</label>
+                            <label for="name">Nama Pemesan</label>
                             <input type="text" class="form-control" id="name" name="name">
                             <?= form_error('name', '<small class="text-danger mt-1">', '</small>'); ?>
                         </div>

@@ -30,7 +30,7 @@
                                         <span class="badge badge-primary"><?= $o['status'] ?></span>
                                     <?php elseif($o['status'] == 'paid') : ?>
                                         <span class="badge badge-warning text-light"><?= $o['status'] ?></span>
-                                    <?php elseif($o['status'] == '') : ?>
+                                    <?php elseif($o['status'] == 'delivered') : ?>
                                         <span class="badge badge-info"><?= $o['status'] ?></span>
                                     <?php elseif($o['status'] == 'cancel') : ?>
                                         <span class="badge badge-danger"><?= $o['status'] ?></span>

@@ -25,11 +25,11 @@
                                         <td>Rp. <?= number_format($o['total'], 2, ',', '.') ?></td>
                                         <td>
                                             <?php if($o['status'] == 'waiting') : ?>
-                                                <span class="badge badge-primary"><?= $o['status'] ?></span>
+                                                <span class="badge badge-primary"><?= $o['status'] ?> - Penjemputan ke lokasi anda!</span>
                                             <?php elseif($o['status'] == 'paid') : ?>
-                                                <span class="badge badge-warning text-dark"><?= $o['status'] ?></span>
+                                                <span class="badge badge-warning text-dark"><?= $o['status'] ?> - Sudah dibayar!</span>
                                             <?php elseif($o['status'] == 'delivered') : ?>
-                                                <span class="badge badge-info"><?= $o['status'] ?></span>
+                                                <span class="badge badge-info"><?= $o['status'] ?> - Sampah sudah diambil!</span>
                                             <?php elseif($o['status'] == 'cancel') : ?>
                                                 <span class="badge badge-danger"><?= $o['status'] ?></span>
                                             <?php endif; ?>
@@ -44,3 +44,4 @@
         </div>
     </div>
 </div>
+<br>

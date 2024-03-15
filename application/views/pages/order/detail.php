@@ -54,10 +54,10 @@
                         <input type="hidden" name="id" value="<?= $order['id'] ?>">
                         <div class="input-group">
                             <select name="status" class="form-control">
-                                <option value="waiting" <?= $order['status'] == 'waiting' ? 'selected' : '' ?>>Waiting</option>
-                                <option value="paid" <?= $order['status'] == 'paid' ? 'selected' : '' ?>>Paid</option>
-                                <option value="delivered" <?= $order['status'] == 'delivered' ? 'selected' : '' ?>>Delivered</option>
-                                <option value="cancel" <?= $order['status'] == 'cancel' ? 'selected' : '' ?>>Cancel</option>
+                                <option value="waiting" <?= $order['status'] == 'waiting' ? 'selected' : '' ?>>Penjemputan ke lokasi anda!</option>
+                                <option value="paid" <?= $order['status'] == 'paid' ? 'selected' : '' ?>>Sudah Terbayar!</option>
+                                <option value="delivered" <?= $order['status'] == 'delivered' ? 'selected' : '' ?>>Success sampah diambil!</option>
+                                <option value="cancel" <?= $order['status'] == 'cancel' ? 'selected' : '' ?>>Cancel!</option>
                             </select>
                             <div class="input-group-append">
                                 <button class="btn btn-info" type="submit">Save</button>
@@ -76,9 +76,13 @@
                     <h5 class="card-header bg-info text-light text-center">Payments Confirmation</h5>
                     <div class="card-body">
                         <p>No HP: <strong><?= $order_confirm['account_name'] ?></strong></p>
+                        <hr>
                         <p>Account Name: <strong><?= $order_confirm['account_number'] ?></strong></p>
+                        <hr>
                         <p>Nominal: <strong>Rp. <?= number_format($order_confirm['nominal'], 2, ',', '.') ?></strong></p>
+                        <hr>
                         <p>Note: <strong><?= $order_confirm['note'] ?></strong></p>
+                        <hr>
                     </div>
                 </div>
             </div>
