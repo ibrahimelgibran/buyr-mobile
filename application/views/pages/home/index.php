@@ -928,27 +928,34 @@ a:link,a:active,a:visited,a:hover{
       }
     </style>
 
-    <div class="row card-row justify-content-center">
-      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/elgibran.png" alt="Ibrahim El Gibran" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Ibrahim El Gibran</h6>
-        <p class="card-p">Chief Technology Officer</p>
-      </div>
-      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/rifandi.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Rifandi Annas Shahruri</h6>
-        <p class="card-p">Chief Executive Officer</p>
-      </div>
-      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/reza.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Reza Apriansyah</h6>
-        <p class="card-p">Chief Operating Officer</p>
-      </div>
-      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
-        <p class="card-p">CFO & CMO Financial Marketing Officer</p>
-      </div>
+<div class="row card-row justify-content-center">
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/elgibran.png" alt="Ibrahim El Gibran" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Ibrahim El Gibran</h6>
+      <p class="card-p">Chief Technology Officer</p>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/rifandi.png" alt="html" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Rifandi Annas Shahruri</h6>
+      <p class="card-p">Chief Executive Officer</p>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/reza.png" alt="html" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Reza Apriansyah</h6>
+      <p class="card-p">Chief Operating Officer</p>
+    </div>
+  </div>
+
+  <div class="row card-row justify-content-center">
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
+      <p class="card-p">CMO Chief Marketing Officer</p>
+    </div>
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/fauzi.png" alt="html" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
+      <p class="card-p">CFO Chief Financial Officer</p>
     </div>
   </div>
 </div>
