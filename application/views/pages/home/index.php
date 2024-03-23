@@ -1,3 +1,4 @@
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <!-- Carousel -->
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -109,9 +110,9 @@
 <!--Hero area end-->
 <div class="haha">
   <div class="container" style="margin-top: -5%;">
-    <div class="row" style="margin-top: -7%;">
+    <div class="row" style="margin-top: -6%;">
       <div class="col-md-6 py-3">
-        <br><br>
+        <br><br><br>
         <h2 class="title-section">Kami <span class="marked">ready</span> untuk melayani anda dengan yang terbaik</h2>
         <div class="divider"></div>
         <p class="pusing" style="text-align:left">Cleanee merupakan sebuah layanan pengolahan sampah dengan tema zero waste dimana sampah an organik seperti plastik akan di daur ulang dan sampah rumah tangga akan di urai menjadi kompos sehingga akan mengurangi volume sampah yang tersedia.</p>
@@ -138,6 +139,13 @@
     background-color: #fff;
     overflow: hidden;
   }
+
+  @media (max-width: 767px) {
+  .haha {
+    padding-top: 0; /* Ubah nilai padding atas sesuai kebutuhan Anda */
+  }
+}
+
 
   .haha p {
     color: #898798;
@@ -206,28 +214,25 @@
   }
 </style>
 
-
-
-
 <!-- List Item -->
 <div class="container">
-  <div class="row mt-5">
+  <div class="row mt-5" >
     <div class="col">
-      <h2 class="head" style="font-size: 30px;" id="pesanan">Pilih Paket</h2>
+      <h2 class="head" style="font-size: 30px; font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" id="pesanan">Pilih Paket</h2>
       <hr>
     </div>
   </div>
 
-  <div class="row mb-5">
+  <div class="row mb-5" style="font-family: 'Montserrat', 'Poppins', sans-serif;">
     <?php foreach ($games as $game) : ?>
       <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mt-4">
-        <div class="card">
-          <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
+        <div class="card" style="border-radius:20px">
+          <img style=" border-top-left-radius: 20px;border-top-right-radius: 20px;" src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>">
           <div class="card-body">
             <h6 class="card-title font-weight-bold"><?= $game['name'] ?></h6>
             <h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
             <!-- <h3 class="text-right text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3> -->
-            <a href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >Order dan Lihat Selengkapnya</a>
+            <a style="border-radius:20px" href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >Order dan Lihat Selengkapnya</a>
           </div>
         </div>
       </div>
@@ -904,14 +909,20 @@ a:link,a:active,a:visited,a:hover{
       }
 
       .card-img {
-        border-radius: 48%;
-        width: 95%;
-        object-fit: cover;
-        height: 180px;
-        /* Mengatur ketinggian gambar agar tidak terlalu besar */
-      }
+      border-radius: 50%; /* Mengatur sudut gambar menjadi lingkaran */
+      width: 85%;
+      height: 200px; /* Mengatur ketinggian gambar agar tidak terlalu besar */
+      max-width: 100%; /* Maksimum lebar gambar adalah 100% dari parent */
+    }
 
-      .card-title {
+    @media (max-width: 767px) {
+    .card-img {
+    height: auto; /* Kembali ke tinggi gambar otomatis di mode mobile */
+    width: 100%; /* Lebar gambar diatur 100% agar responsif di mode mobile */
+    }
+    }
+
+    .card-title {
         margin-top: 10px;
         /* Atur jarak antara gambar dan judul */
         letter-spacing: -1px;
@@ -945,17 +956,16 @@ a:link,a:active,a:visited,a:hover{
       <p class="card-p">Chief Operating Officer</p>
     </div>
   </div>
-
   <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-      <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
-      <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
-      <p class="card-p">CMO Chief Marketing Officer</p>
+    <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
+    <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
+    <p class="card-p">Chief Marketing Officer</p>
     </div>
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-      <img src="./images/team/fauzi.png" alt="html" class="mw-100 make-it-inline card-img" />
-      <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
-      <p class="card-p">CFO Chief Financial Officer</p>
+    <img src="./images/team/fauzi.png" alt="html" class="mw-100 make-it-inline card-img" />
+    <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
+    <p class="card-p">Chief Financial Officer</p>
     </div>
   </div>
 </div>

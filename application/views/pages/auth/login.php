@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row justify-content-center mt-5">
     <div class="col-md-4"> <!-- Menggunakan col-md-6 untuk tampilan desktop dan tablet, dan akan full width di tampilan HP -->
-      <div class="card">
+      <div class="card" style="border-radius:20px">
         <div class="card-body">
           <form action="<?= base_url('login/login') ?>" method="post" class="form-signin text-center">
             <img class="mb-4" src="<?= base_url() ?>/images/sponsor/iegcode.png" width="210" height="72">
