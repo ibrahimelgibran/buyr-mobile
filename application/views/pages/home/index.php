@@ -958,7 +958,7 @@ a:link,a:active,a:visited,a:hover{
   </div>
   <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-    <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
+    <img src="./images/team/dean.jpeg" alt="html" class="mw-100 make-it-inline card-img" />
     <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
     <p class="card-p">Chief Marketing Officer</p>
     </div>
@@ -1058,7 +1058,7 @@ a:link,a:active,a:visited,a:hover{
 
 <!-- button chackbok -->
 <button class="live-chat-btn" onclick="window.location.href='https://chatapp.smksmuhammadiyahgamping.sch.id/'">
-  <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Live Chat
+  <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Chat Room
 </button>
 
 <style>

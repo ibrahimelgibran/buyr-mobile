@@ -6,8 +6,8 @@
             <div class="col-md-6">
               <div class="logo-wrapper mb-5">
                 <a href="index.php" class="logo">
-                  <img src="images/logo/ieg.png" alt="logo" />
-                  <span class="text">Cleanee</span>
+                  <img src="images/logo/logo.svg" alt="logo" />
+                  <span class="text" style="color: #95c11f">Cleanee</span>
                 </a>
                 <p>
                   Jl. Menuju Surga <br />

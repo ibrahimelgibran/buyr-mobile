@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/fontawesome/css/all.min.css">
    <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/summernote/dist/summernote-bs4.css">
    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
-   <link rel="shortcut icon" href="images/logo/ieg.png" type="image/x-icon">
+   <link rel="shortcut icon" href="images/logo/logo.svg" type="image/x-icon">
    <title>Cleanee - <?= $title ?></title>
 </head>
 <body>
