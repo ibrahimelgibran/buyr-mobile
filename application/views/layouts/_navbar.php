@@ -54,7 +54,7 @@
 								<a class="dropdown-item" href="<?= base_url('product') ?>">Product</a>
 								<a class="dropdown-item" href="<?= base_url('order') ?>">Order</a>
 								<a class="dropdown-item" href="<?= base_url('user') ?>">Users</a>
-								<a class="dropdown-item" href="#">COINTKU</a>
+								<a class="dropdown-item" href="http://localhost/coinku/">COINTKU</a>
 							</div>
 						</li>
 
@@ -86,7 +86,7 @@
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('home') ?>">HOME</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="./about.html">ABOUT US</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="#pesanan">PILIH PAKET</a>
-					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="#pesanan">COINTKU</a>
+					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/coinku/">COINTKU</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('login') ?>">LOGIN</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('register') ?>">REGISTER</a>
 				<?php endif ?>

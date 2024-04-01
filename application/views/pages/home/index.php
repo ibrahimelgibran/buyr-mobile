@@ -911,7 +911,7 @@ a:link,a:active,a:visited,a:hover{
       .card-img {
       border-radius: 50%; /* Mengatur sudut gambar menjadi lingkaran */
       width: 85%;
-      height: 200px; /* Mengatur ketinggian gambar agar tidak terlalu besar */
+      height: 190px; /* Mengatur ketinggian gambar agar tidak terlalu besar */
       max-width: 100%; /* Maksimum lebar gambar adalah 100% dari parent */
     }
 
@@ -955,8 +955,13 @@ a:link,a:active,a:visited,a:hover{
       <h6 class="title card-title">Reza Apriansyah</h6>
       <p class="card-p">Chief Operating Officer</p>
     </div>
+      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+        <img src="./images/team/user.png" style="height:auto;" alt="html" class="mw-100 make-it-inline card-img" />
+        <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
+        <p class="card-p">Chief Marketing Officer</p>
+      </div>
   </div>
-  <div class="row card-row justify-content-center">
+  <!-- <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
     <img src="./images/team/dean.jpeg" alt="html" class="mw-100 make-it-inline card-img" />
     <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
@@ -967,7 +972,7 @@ a:link,a:active,a:visited,a:hover{
     <h6 class="title card-title">Bagas Nurfauzi Hidayatullah</h6>
     <p class="card-p">Chief Financial Officer</p>
     </div>
-  </div>
+  </div> -->
 </div>
 <br><br><br>
 <!-- Tools Section End -->
@@ -1057,7 +1062,7 @@ a:link,a:active,a:visited,a:hover{
 <!-- End of footer -->
 
 <!-- button chackbok -->
-<button class="live-chat-btn" onclick="window.location.href='https://chatapp.smksmuhammadiyahgamping.sch.id/'">
+<button class="live-chat-btn" onclick="window.location.href='http://localhost/chat_system/'">
   <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Chat Room
 </button>
 
