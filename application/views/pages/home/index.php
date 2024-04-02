@@ -115,7 +115,7 @@
         <br><br><br>
         <h2 class="title-section">Kami <span class="marked">ready</span> untuk melayani anda dengan yang terbaik</h2>
         <div class="divider"></div>
-        <p class="pusing" style="text-align:left">Cleanee merupakan sebuah layanan pengolahan sampah dengan tema zero waste dimana sampah an organik seperti plastik akan di daur ulang dan sampah rumah tangga akan di urai menjadi kompos sehingga akan mengurangi volume sampah yang tersedia.</p>
+        <p class="pusing" style="text-align:left">Cleanee merupakan sebuah layanan pengolahan sampah dengan tema zero waste dimana sampah anorganik seperti plastik akan di daur ulang dan sampah rumah tangga akan di urai menjadi kompos sehingga akan mengurangi volume sampah yang tersedia.</p>
         <form action="<?= base_url('register') ?>" method="POST">
           <button type="submit" class="btn btn-primary">→ Daftar Now</button>
         </form>
@@ -955,11 +955,11 @@ a:link,a:active,a:visited,a:hover{
       <h6 class="title card-title">Reza Apriansyah</h6>
       <p class="card-p">Chief Operating Officer</p>
     </div>
-      <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
-        <img src="./images/team/user.png" style="height:auto;" alt="html" class="mw-100 make-it-inline card-img" />
-        <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
-        <p class="card-p">Chief Marketing Officer</p>
-      </div>
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+      <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
+      <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
+      <p class="card-p">Chief Marketing Officer</p>
+    </div>
   </div>
   <!-- <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">

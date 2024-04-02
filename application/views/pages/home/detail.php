@@ -94,9 +94,9 @@
               <div class="logo-wrapper mb-5">
                 <a style="color:#387ADF;" class="logo">
                 <div>
-                <img src="http://localhost/gstore/images/logo/ieg.png" alt="logo" />
+                <img src="http://localhost/Cleanee/images/logo/logo.svg" alt="logo" />
                 </div>
-                  <span class="text">Cleanee</span>
+                  <span class="text" style="color:#95c11f">Cleanee</span>
                 </a>
                 <p>
                   Jl. Menuju Surga <br />
@@ -108,9 +108,10 @@
               <div class="row">
                 <div class="col-4">
                   <ul class="dev-footer-list">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Order Now</a></li>
+                    <li><a href="http://localhost/Cleanee/home">Home</a></li>
+                    <li><a href="http://localhost/Cleanee/about.html">About Us</a></li>
+                    <li><a href="../#pesanan">Pilih Paket</a></li>
+                    <li><a href="http://localhost/coinku/auth/loginAnggota">Cointku</a></li>
                   </ul>
                 </div>
                 <div class="col-4">

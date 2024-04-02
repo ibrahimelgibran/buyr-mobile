@@ -13,11 +13,11 @@
 					<?php if($this->session->userdata('role') == 2) : ?>
 						
 
-						<a class="nav-item nav-link mr-3 active" href="<?= base_url('cart') ?>">
-							<i class="fas fa-shopping-cart"></i>
+						<a class="nav-item nav-link mr-3 active " style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('cart') ?>">
+							<i class="fas fa-shopping-cart"> KERANJANG</i>
 						</a>
 
-						<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="#pesanan">COINTKU</a>
+						<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/coinku/auth/loginAnggota">COINTKU</a>
 
 						<li class="nav-item dropdown active">
 							<a class="nav-link dropdown-toggle mr-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -54,7 +54,7 @@
 								<a class="dropdown-item" href="<?= base_url('product') ?>">Product</a>
 								<a class="dropdown-item" href="<?= base_url('order') ?>">Order</a>
 								<a class="dropdown-item" href="<?= base_url('user') ?>">Users</a>
-								<a class="dropdown-item" href="http://localhost/coinku/">COINTKU</a>
+								<a class="dropdown-item" href="http://localhost/coinku/auth/loginPegawai">COINTKU</a>
 							</div>
 						</li>
 
@@ -84,9 +84,9 @@
 					<?php endif ?>
 				<?php else: ?>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('home') ?>">HOME</a>
-					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="./about.html">ABOUT US</a>
-					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="#pesanan">PILIH PAKET</a>
-					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/coinku/">COINTKU</a>
+					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/Cleanee/about.html">ABOUT US</a>
+					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/Cleanee/#pesanan">PILIH PAKET</a>
+					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/coinku/auth/loginAnggota">COINTKU</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('login') ?>">LOGIN</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('register') ?>">REGISTER</a>
 				<?php endif ?>

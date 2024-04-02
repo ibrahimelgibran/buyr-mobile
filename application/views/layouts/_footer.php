@@ -21,7 +21,8 @@
                   <ul class="dev-footer-list">
                     <li><a href="index.php">Home</a></li>
                     <li><a href="about.html">About Us</a></li>
-                    <li><a href="#pesanan">Order Now</a></li>
+                    <li><a href="#pesanan">Pilih Paket</a></li>
+                    <li><a href="http://localhost/coinku/auth/loginAnggota">Cointku</a></li>
                   </ul>
                 </div>
                 <div class="col-4">
