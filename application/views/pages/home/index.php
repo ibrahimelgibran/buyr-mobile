@@ -232,7 +232,7 @@
             <h6 class="card-title font-weight-bold"><?= $game['name'] ?></h6>
             <h6 class="text-muted"><?= ucfirst($game['edition']) ?> Edition</h6>
             <!-- <h3 class="text-right text-warning price mt-4">Rp.<?= number_format($game['price'], 2, ', ', '.'); ?></h3> -->
-            <a style="border-radius:20px" href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >Order dan Lihat Selengkapnya</a>
+            <a style="border-radius:20px" href="<?= base_url('home/detail/' . $game['id']) ?>" class="btn btn-outline-info btn-sm btn-block mt-3" >BERLANGGANAN SEKARANG</a>
           </div>
         </div>
       </div>
@@ -441,8 +441,8 @@
             <path d="M6 24L24 34.5L42 24" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M6 15L24 25.5L42 15L24 4.5L6 15Z" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <h3 class="title"><span class="counter" data-count="1">1</span>+</h3>
-          <p class="text">Years of Experience</p>
+          <h3 class="title"><span class="counter" data-count="2">2</span>+</h3>
+          <p class="text">Month of Experience</p>
         </div>
       </div>
       <div class="col-md-3 col-6">
@@ -453,7 +453,7 @@
             <path d="M42 23.6812C36.5293 26.8451 30.3197 28.5074 24 28.4999C17.6791 28.5164 11.4673 26.8534 6 23.6812" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M21.75 22.5H26.25" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <h3 class="title"><span class="counter" data-count="50">0</span>+</h3>
+          <h3 class="title"><span class="counter" data-count="10">0</span>+</h3>
           <p class="text">Completed Projects</p>
         </div>
       </div>
@@ -465,7 +465,7 @@
             <path d="M28.5 20.25H33" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M31.8 28.5C31.007 29.8661 29.8691 31 28.5003 31.7882C27.1314 32.5764 25.5795 32.9913 24 32.9913C22.4204 32.9913 20.8685 32.5764 19.4996 31.7882C18.1308 31 16.9929 29.8661 16.2 28.5" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <h3 class="title"><span class="counter" data-count="48">0</span>+</h3>
+          <h3 class="title"><span class="counter" data-count="9">0</span>+</h3>
           <p class="text">Happy Clients</p>
         </div>
       </div>
@@ -479,7 +479,7 @@
             <path d="M15.6189 40.4998C12.748 39.1824 10.3156 37.0688 8.61053 34.4098C6.90548 31.7509 5.99947 28.6584 6.00012 25.4998V16.4998H39.0001V25.4998C39.0008 28.6584 38.0948 31.7509 36.3897 34.4098C34.6847 37.0688 32.2522 39.1824 29.3814 40.4998" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
             <path d="M39.0002 16.4998C40.5915 16.4998 42.1176 17.1319 43.2428 18.2571C44.368 19.3823 45.0002 20.9085 45.0002 22.4998V23.9998C45.0002 25.5911 44.368 27.1172 43.2428 28.2424C42.1176 29.3676 40.5915 29.9998 39.0002 29.9998H38.3627" stroke="#1777E5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
           </svg>
-          <h3 class="title"><span class="counter" data-count="24">24</span>+</h3>
+          <h3 class="title"><span class="counter" data-count="12">0</span>+</h3>
           <p class="text">Hours of Work</p>
         </div>
       </div>

@@ -26,14 +26,22 @@
 
   /* Menonaktifkan background image untuk tampilan HP */
   @media (max-width: 767px) {
-    body.no-background-image {
-      background-image: none !important;
-    }
+  /* Jangan menonaktifkan background image, biarkan background image tetap aktif */
+  body {
+    background-image: url('./images/banner/petani.png') !important;
   }
+}
 </style>
-	<div class="row justify-content-center mt-4">
+	<div class="row justify-content-center mt-5">
 		<div class="col-md-5">
-			<div class="card" style="border-radius:20px">
+			<div class="card kurangatas" style="border-radius:20px">
+			<style>
+			@media (max-width: 767px) {
+			.kurangatas {
+				margin-top: -25%;
+  			}
+		}
+		</style>
 				<div class="card-body">
 					<div class="row justify-content-center">
 						<div class="col-10">

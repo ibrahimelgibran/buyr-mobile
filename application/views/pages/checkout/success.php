@@ -9,7 +9,8 @@
 					<br>
 					<p>Silakan lewati pembayaran dengan prosedur berikut:</p>
 					<ol>
-						<li>Lakukan pembayaran ke rekening <strong>BSI 7205751291</strong> An. Ibrahim El Gibran</li>
+						<li>Pembayaran dengan Virtual Account Bank  <strong>BSI 7205751291</strong> An. Ibrahim El Gibran</li>
+						<li>Pembayaran dengan E-Wallet <strong>DANA 085876076005</strong> An. Ibrahim El Gibran</li>
 						<li>Sertakan informasi dengan nomor pesanan <strong><?= $content['invoice'] ?></strong></li>
 						<li>Total pembayaran <strong>Rp. <?= number_format($content['total'], 0, ',', '.') ?></strong></li>
 					</ol>
