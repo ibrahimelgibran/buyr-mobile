@@ -6,9 +6,10 @@
 
 <!-- Hero -->
 <div class="row mt-5">
-    <div class="col">
-        <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>" style="width: 330px">
-    </div>
+<div class="col">
+    <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>" style="width: 100%; max-width: 330px;">
+</div>
+
     <div class="col-md-5">
       <br>
         <div class="table-responsive">
@@ -39,6 +40,10 @@
         </div>
     </div>
     <div class="col">
+    <div style="text-align:center;">
+        <img src="https://subscription.bsd.education/wp-content/uploads/2021/12/Successful-purchase-bro-2.png" style="width:auto; height:210px;" alt="">
+    </div>
+    <br>
     <div class="card border-dark">
         <div class="card-body text-center">
             <h2 class="text-warning price mb-4">Rp. <?= number_format($game['price'], 2, ', ','.'); ?></h2>
@@ -49,6 +54,8 @@
             </form>
         </div>
     </div>
+</div>
+
 </div>
 
 </div>
