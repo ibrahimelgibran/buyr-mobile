@@ -55,19 +55,19 @@
 								<?php $this->load->view('layouts/_alert') ?>
 
 								<div class="form-group">
-									<input type="text" class="form-control" name="name" placeholder="Your complete name">
+									<input type="text" class="form-control" name="name" placeholder="Your complete name" required>
 									<?= form_error('name', '<small class="text-danger ml-2 mt-1">', '</small>'); ?>
 								</div>
 								<div class="form-group">
-									<input type="email" class="form-control" name="email" placeholder="Email">
+									<input type="email" class="form-control" name="email" placeholder="Email" required>
 									<?= form_error('email', '<small class="text-danger ml-2 mt-1">', '</small>'); ?>
 								</div>
 								<div class="form-group">
-									<input type="password" class="form-control" name="password" placeholder="Password">
+									<input type="password" class="form-control" name="password" placeholder="Password" required>
 									<?= form_error('password', '<small class="text-danger ml-2 mt-1">', '</small>'); ?>
 								</div>
 								<div class="form-group">
-									<input type="password" class="form-control" name="password2" placeholder="Confirmation Password">
+									<input type="password" class="form-control" name="password2" placeholder="Confirmation Password" required>
 									<?= form_error('password2', '<small class="text-danger ml-2 mt-1">', '</small>'); ?>
 								</div>
 			

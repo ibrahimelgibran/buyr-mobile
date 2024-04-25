@@ -631,7 +631,7 @@ counters.forEach((counter) => {
       <div class="div5 eachdiv" style="text-align:left">
         <div class="userdetails">
           <div class="imgbox">
-          <img src="https://yt3.googleusercontent.com/LxOO_p0TSDwI3nh8nmYGuiZwAQJyZYUB-MWmQjhlXYDVWyjsK34781UjSD3tmV1fnJqhCZLYIQ=s176-c-k-c0x00ffffff-no-rj" style="width:50px; height:50px" alt="">
+          <img src="https://kbr.id/kenalicaleg//caleg_foto/587ddeeb6fe119a7758f5b42d3786ae1.jpg" style="width:50px; height:50px" alt="">
           </div>
           <div class="detbox">
             <p class="name">Devi Kusumawardhani</p>
@@ -955,11 +955,11 @@ a:link,a:active,a:visited,a:hover{
       <h6 class="title card-title">Reza Apriansyah</h6>
       <p class="card-p">Chief Operating Officer</p>
     </div>
-    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+    <!-- <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
       <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
       <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
       <p class="card-p">Chief Marketing Officer</p>
-    </div>
+    </div> -->
   </div>
   <!-- <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
@@ -1062,7 +1062,7 @@ a:link,a:active,a:visited,a:hover{
 <!-- End of footer -->
 
 <!-- button chackbok -->
-<button class="live-chat-btn" onclick="window.location.href='http://localhost/chat_system/'">
+<!-- <button class="live-chat-btn" onclick="window.location.href='http://localhost/chat_system/'">
   <img src="./images/logo/chat.png" alt="Icon Pesan" width="24" height="24"> Chat Room
 </button>
 
@@ -1100,6 +1100,7 @@ a:link,a:active,a:visited,a:hover{
   .live-chat-btn:active {
     box-shadow: none;
   }
-</style>
+</style> -->
 
 <!--end button chackbok-->
+<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f069bfbf-3d23-4118-896b-6010e06d37f2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>

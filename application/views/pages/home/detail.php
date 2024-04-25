@@ -130,7 +130,7 @@
                 <div class="col-4">
                   <ul class="dev-footer-list">
                     <li>
-                      <a href="https://www.instagram.com/gmtcorp.id/"
+                      <a href="https://www.instagram.com/cleanee.id"
                         >Instagram</a
                       >
                     </li>
