@@ -41,7 +41,7 @@
     </div>
     <div class="col">
     <div style="text-align:center;">
-        <img src="https://subscription.bsd.education/wp-content/uploads/2021/12/Successful-purchase-bro-2.png" style="width:auto; height:210px;" alt="">
+        <img src="https://ik.imagekit.io/elgibran/7182239_3582346-removebg-preview.png?updatedAt=1720319605443" style="width:auto; height:215px;" alt="">
     </div>
     <br>
     <div class="card border-dark">

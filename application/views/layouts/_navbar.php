@@ -54,7 +54,7 @@
 								<a class="dropdown-item" href="<?= base_url('product') ?>">Product</a>
 								<a class="dropdown-item" href="<?= base_url('order') ?>">Order</a>
 								<a class="dropdown-item" href="<?= base_url('user') ?>">Users</a>
-								<a class="dropdown-item" href="http://localhost/coinku/auth/loginPegawai">COINTKU</a>
+								<a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWxQSmZzziTWBpDZKFbg_Y0aL2pJjMV2XPxrVZDB8c0vOsDw/viewform">COINTKU</a>
 							</div>
 						</li>
 
@@ -86,7 +86,8 @@
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('home') ?>">HOME</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/Cleanee/about.html">ABOUT US</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/Cleanee/#pesanan">PILIH PAKET</a>
-					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/coinku/auth/loginAnggota">COINTKU</a>
+					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="https://docs.google.com/forms/d/e/1FAIpQLSdWxQSmZzziTWBpDZKFbg_Y0aL2pJjMV2XPxrVZDB8c0vOsDw/viewform">COINTKU</a>
+						<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="http://localhost/Cleanee/prestasi.html">PRESTASI</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('login') ?>">LOGIN</a>
 					<a class="nav-item nav-link mr-3 active" style="font-family: 'Montserrat', 'Poppins', sans-serif;  font-weight: bold;" href="<?= base_url('register') ?>">REGISTER</a>
 				<?php endif ?>

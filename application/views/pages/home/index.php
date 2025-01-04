@@ -1,5 +1,16 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 <!-- Carousel -->
+  <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html, body {
+        overflow-x: hidden;
+        width: 100%;
+      }
+  </style>
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <?php $no = 0; ?>
@@ -877,7 +888,7 @@ a:link,a:active,a:visited,a:hover{
   <div class="container">
     <div class="dev-section-title text-center">
     <h2 class="title">Team <span class="team" style="color:#1777E5">Cleanee</span></h2>
-      <p class="text">Sebuah team yang penuh semangat dan dedikasi.</p>
+      <p class="text">Satu Planet, Satu Aksi.</p>
     </div><br>
     <style>
       .dev-section-title {
@@ -955,11 +966,11 @@ a:link,a:active,a:visited,a:hover{
       <h6 class="title card-title">Reza Apriansyah</h6>
       <p class="card-p">Chief Operating Officer</p>
     </div>
-    <!-- <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
+    <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
       <img src="./images/team/dean.png" alt="html" class="mw-100 make-it-inline card-img" />
       <h6 class="title card-title">Deandra Gerva Oxa Bernino</h6>
       <p class="card-p">Chief Marketing Officer</p>
-    </div> -->
+    </div>
   </div>
   <!-- <div class="row card-row justify-content-center">
     <div class="col-6 col-md-3 col-lg-2 card-col text-center mb-4">
