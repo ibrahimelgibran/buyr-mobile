@@ -23,7 +23,7 @@
   }
 
   .footer {
-  background-color: #337ab7;
+  background-color: #26a8d1;
   color: white;
   padding: 10px 0;
   text-align: center;
@@ -183,9 +183,9 @@
                         <input type="hidden" name="id" value="<?= $order['id'] ?>">
                         <div class="input-group">
                             <select name="status" class="form-control">
-                                <option value="waiting" <?= $order['status'] == 'waiting' ? 'selected' : '' ?>>Penjemputan ke lokasi anda!</option>
+                                <option value="waiting" <?= $order['status'] == 'waiting' ? 'selected' : '' ?>>Pengiriman ke lokasi anda!</option>
                                 <option value="paid" <?= $order['status'] == 'paid' ? 'selected' : '' ?>>Sudah Terbayar!</option>
-                                <option value="delivered" <?= $order['status'] == 'delivered' ? 'selected' : '' ?>>Success sampah diambil!</option>
+                                <option value="delivered" <?= $order['status'] == 'delivered' ? 'selected' : '' ?>>Sudah diambil dan diterima!</option>
                                 <option value="cancel" <?= $order['status'] == 'cancel' ? 'selected' : '' ?>>Cancel!</option>
                             </select>
                             <div class="input-group-append">

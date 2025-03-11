@@ -222,7 +222,7 @@
 
 <br><br><br>
 
-<iv class="footer">
+<div class="footer">
     <a href="<?= base_url('home') ?>">
         <span class="icon">🏠</span> home
     </a>
@@ -245,5 +245,5 @@
         </div>
     </div>
 
-</iv>
+</div>
 <!-- <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="f069bfbf-3d23-4118-896b-6010e06d37f2";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script> -->

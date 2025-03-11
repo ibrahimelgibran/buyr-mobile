@@ -24,7 +24,7 @@
     margin: 0; 
     padding: 0; 
     /* background-image: url('./images/banner/bg.jpg'); */
-    background-color: #337ab7;
+    background-color: #26a8d1;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Poppins';
@@ -33,7 +33,7 @@
 }
 
   .footer {
-  background-color: #337ab7;
+  background-color: #26a8d1;
   color: white;
   padding: 10px 0;
   text-align: center;

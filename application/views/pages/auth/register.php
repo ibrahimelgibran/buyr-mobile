@@ -24,7 +24,7 @@
     width: 100%;
     padding: 0; 
     /* background-image: url('./images/banner/petani.png'); */
-	background-color: #337ab7;
+	background-color: #26a8d1;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -32,7 +32,7 @@
 }
 
   .footer {
-  background-color: #337ab7;
+  background-color: #26a8d1;
   color: white;
   padding: 10px 0;
   text-align: center;

@@ -14,7 +14,7 @@
         }
         
         .footer {
-            background-color: #337ab7;
+            background-color: #26a8d1;
             color: white;
             padding: 10px 0;
             text-align: center;
@@ -147,7 +147,7 @@
             margin-top: 2rem;
             margin-bottom: 1rem;
             font-weight: 600;
-            color: #337ab7;
+            color: #26a8d1;
         }
         
         .content-box {
