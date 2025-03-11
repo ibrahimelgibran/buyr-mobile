@@ -1,258 +1,261 @@
-<div class="container">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail Produk</title>
+    <!-- Optimize CSS imports -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            padding-bottom: 70px; /* Untuk ruang footer */
+        }
+        
+        .footer {
+            background-color: #337ab7;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+            z-index: 1000;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0;
+            left: 0;
+            right: 0;
+        }
 
-	<!-- Alert -->
-	<?php $this->load->view('layouts/_alert') ?>
-	<!-- End of alert -->
+        .footer a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 
-<!-- Hero -->
-<div class="row mt-5">
-<div class="col">
-    <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="card-img-top" alt="<?= $game['name'] ?>" style="width: 100%; max-width: 330px;">
-</div>
+        .footer a:hover {
+            text-decoration: underline;
+        }
 
-    <div class="col-md-5">
-      <br>
-        <div class="table-responsive">
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">Paket</td>
-                        <td style="border: 2px solid black;"><?= $game['name'] ?></td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">Edition</td>
-                        <td style="border: 2px solid black;"><?= ucfirst($game['edition']) ?> Edition</td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">Description</td>
-                        <td style="border: 2px solid black;"><?= character_limiter($game['description'], 200) ?></td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">View More</td>
-                        <td style="border: 2px solid black;"><a href="#description" class="text-info font-weight-bold">View more</a></td>
-                    </tr>
-                    <tr>
-                        <td class="font-weight-bold" style="border: 2px solid black;">EDITION</td>
-                        <td style="border: 2px solid black;"><span class="badge badge-info badge-pill p-2"><?=  ucfirst($game['edition']) ?></span></td>
-                    </tr>
-                </tbody>
-            </table>
+        .footer .icon {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+
+        .footer .cart-count {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        /* Dropdown akunku */
+        .account-dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .account-link {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+            flex-direction: row;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+
+        .account-dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 50%;
+            margin-left: -10px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: #f9f9f9 transparent transparent transparent;
+        }
+        
+        /* Detail produk styling */
+        .product-img {
+            width: 100%;
+            max-width: 330px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .mascot-img {
+            width: auto;
+            height: 215px;
+            margin: 0 auto;
+        }
+        
+        .price {
+            font-weight: bold;
+            color: #ffc107;
+        }
+        
+        .info-table td {
+            border: 2px solid #dee2e6;
+            padding: 12px;
+        }
+        
+        .section-heading {
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 600;
+            color: #337ab7;
+        }
+        
+        .content-box {
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-4">
+    <!-- Alert -->
+    <?php $this->load->view('layouts/_alert') ?>
+
+    <!-- Hero Section -->
+    <div class="row mb-4">
+        <div class="col-md-4 mb-3">
+            <img src="<?= base_url() ?>/images/game/<?= $game['image'] ?>" class="product-img" alt="<?= $game['name'] ?>">
         </div>
-    </div>
-    <div class="col">
-    <div style="text-align:center;">
-        <img src="https://ik.imagekit.io/elgibran/7182239_3582346-removebg-preview.png?updatedAt=1720319605443" style="width:auto; height:215px;" alt="">
-    </div>
-    <br>
-    <div class="card border-dark">
-        <div class="card-body text-center">
-            <h2 class="text-warning price mb-4">Rp. <?= number_format($game['price'], 2, ', ','.'); ?></h2>
-            <!-- <h2 class="text-warning price mb-4">Rp. <?= number_format($game['price']); ?></h2> -->
-            <form action="<?= base_url('cart/add') ?>" method="POST">
-                <input type="hidden" name="product_id" value="<?= $game['id'] ?>">
-                <button type="submit" class="btn btn-success btn-block">ADD TO CART</button>
-            </form>
-        </div>
-    </div>
-</div>
 
-</div>
-
-</div>
-<!-- End of hero -->
-
-
-	<!-- Summary -->
-	<div class="row mt-5 mb-2">
-		<div class="col">
-			<h3 id="description">Ringkasan</h3>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col bg-light p-5">
-			<?= $game['description'] ?>
-		</div>
-	</div>
-	<!-- End of summary -->
-
-	<!-- System requirements -->
-	<div class="row mt-5 mb-2">
-		<div class="col">
-			<h3>Persyaratan Sistem</h3>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="col bg-light p-5">
-			<?= $game['requirements'] ?>
-		</div>
-	</div>
-	<!-- End of System requirements -->
-</div>
-
-<br><br>
-<footer class="footer bg-light">
-		<!-- Footer Section Start -->
-		<div class="dev-footer-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="logo-wrapper mb-5">
-                <a style="color:#387ADF;" class="logo">
-                <div>
-                <img src="http://localhost/Cleanee/images/logo/logo.svg" alt="logo" />
-                </div>
-                  <span class="text" style="color:#95c11f">Cleanee</span>
-                </a>
-                <p>
-                  Jl. Menuju Surga <br />
-                  Yogyakarta, Indonesia 55581
-                </p>
-              </div>
+        <div class="col-md-4 mb-3">
+            <div class="table-responsive">
+                <table class="table info-table">
+                    <tbody>
+                        <tr>
+                            <td class="fw-bold">Paket</td>
+                            <td><?= $game['name'] ?></td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Edition</td>
+                            <td><?= ucfirst($game['edition']) ?> Edition</td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">Description</td>
+                            <td><?= character_limiter($game['description'], 100) ?></td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">View More</td>
+                            <td><a href="#description" class="text-info fw-bold">View more</a></td>
+                        </tr>
+                        <tr>
+                            <td class="fw-bold">EDITION</td>
+                            <td><span class="badge bg-info rounded-pill p-2"><?= ucfirst($game['edition']) ?></span></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-4">
-                  <ul class="dev-footer-list">
-                    <li><a href="http://localhost/Cleanee/home">Home</a></li>
-                    <li><a href="http://localhost/Cleanee/about.html">About Us</a></li>
-                    <li><a href="../#pesanan">Pilih Paket</a></li>
-                    <li><a href="http://localhost/coinku/auth/loginAnggota">Cointku</a></li>
-                  </ul>
-                </div>
-                <div class="col-4">
-                  <ul class="dev-footer-list">
-                    <li><a href="#">Collaboration</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-                </div>
-                <div class="col-4">
-                  <ul class="dev-footer-list">
-                    <li>
-                      <a href="https://www.instagram.com/cleanee.id"
-                        >Instagram</a
-                      >
-                    </li>
-                  </ul>
-                </div>
-              </div>
+        </div>
+        
+        <div class="col-md-4 mb-3">
+            <div class="text-center mb-3">
+                <img src="https://ik.imagekit.io/elgibran/7182239_3582346-removebg-preview.png?updatedAt=1720319605443" class="mascot-img" alt="Mascot">
             </div>
-          </div>
+            
+            <div class="card border-dark">
+                <div class="card-body text-center">
+                    <h2 class="price mb-4">Rp. <?= number_format($game['price'], 2, ',', '.'); ?></h2>
+                    <form action="<?= base_url('cart/add') ?>" method="POST">
+                        <input type="hidden" name="product_id" value="<?= $game['id'] ?>">
+                        <button type="submit" class="btn btn-success w-100">ADD TO CART</button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="dev-copyright-area">
-        <div class="container">
-          <div class="dev-copyright-area__wrapper">
-			<hr>	
-			<br>
-            <p class="order-2 order-md-1">
-            Made With 💙 By Team Cleanee
-            </p>
-          </div>
-        </div>
-      </div>
-	  <br>
-      <!-- Footer Section End -->
-</footer>  
+    </div>
 
-<style>
-.dev-copyright-area__wrapper{
-	text-align: center;
+    <!-- Description Section -->
+    <h3 id="description" class="section-heading">Ringkasan</h3>
+    <div class="content-box">
+        <?= $game['description'] ?>
+    </div>
 
-}
+    <!-- System Requirements Section -->
+    <h3 class="section-heading">Persyaratan Sistem</h3>
+    <div class="content-box mb-5">
+        <?= $game['requirements'] ?>
+    </div>
+</div>
+ 
+<br><br><br>
 
-	.footer{
-		margin-bottom: -15px;
-	}
+<!-- Footer -->
+<div class="footer">
+  <a href="<?= base_url('home') ?>">
+    <span class="icon">🏠</span> home
+  </a>
+  <div class="account-dropdown">
+    <a href="#" class="account-link">
+    <span class="icon">🛒</span> keranjang
+    </a>
+    <div class="dropdown-content">
+      <a href="<?= base_url('cart') ?>">Keranjang</a>
+      <a href="<?= base_url('myorder') ?>">My Orders</a>
+    </div>
+  </div>
+  <div class="account-dropdown">
+    <a href="#" class="account-link">
+      <span class="icon">👤</span> akunku
+    </a>
+    <div class="dropdown-content">
+      <a href="<?= base_url('profile') ?>">Profil</a>
+      <a href="<?= base_url('profile/password') ?>">Change Password</a>
+    </div>
+  </div>
+</div>
 
-	.dev-footer-area {
-  background: var(--bs-white);
-  padding: 60px 0;
-}
-@media (min-width: 768px) {
-  .dev-footer-area {
-    padding: 80px 0;
-  }
-}
-@media (min-width: 992px) {
-  .dev-footer-area {
-    padding: 100px 0;
-  }
-}
-.dev-footer-area .logo-wrapper .logo {
-  display: flex;
-  align-items: center;
-  margin-bottom: 24px;
-}
-.dev-footer-area .logo-wrapper .logo img {
-  min-width: 48px;
-  max-width: 48px;
-  min-height: 48px;
-  max-height: 48px;
-  -o-object-fit: cover;
-  object-fit: cover;
-  border-radius: 500px;
-  margin-right: 12px;
-}
-.dev-footer-area .logo-wrapper .logo .text {
-  color: var(--bs-gray-900);
-  white-space: nowrap;
-  font-weight: 700;
-  font-size: 18px;
-}
-@media (min-width: 992px) {
-  .dev-footer-area .logo-wrapper .logo .text {
-    font-size: 24px;
-  }
-}
-.dev-footer-area .logo-wrapper p {
-  color: var(--bs-gray-700);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4444444444;
-}
-@media (min-width: 575px) {
-  .dev-footer-area .logo-wrapper p {
-    font-size: 18px;
-  }
-}
-.dev-footer-area .dev-footer-list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.dev-footer-area
-  .dev-footer-list
-  li:not(.dev-footer-area .dev-footer-list li:last-child) {
-  padding-bottom: 18px;
-}
-.dev-footer-area .dev-footer-list li a {
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 1.4444444444;
-  transition: 0.3s;
-  color: var(--bs-gray-700);
-  position: relative;
-}
-.dev-footer-area .dev-footer-list li a::before {
-  content: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.75 12H20.25' stroke='%23424E60' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3C/path%3E%3Cpath d='M13.5 5.25L20.25 12L13.5 18.75' stroke='%23424E60' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3C/path%3E%3C/svg%3E");
-  display: inline-block;
-  position: absolute;
-  left: 0;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 0.24s ease-in-out;
-}
-.dev-footer-area .dev-footer-list li a:hover {
-  color: var(--bs-gray-900);
-  padding-left: 24px;
-}
-.dev-footer-area .dev-footer-list li a:hover::before {
-  opacity: 1;
-  visibility: visible;
-}
-.dev-footer-area--modifi {
-  box-shadow: inset 0px 1px 0px var(--bs-gray-100);
-}
-</style>
+</body>
+</html>

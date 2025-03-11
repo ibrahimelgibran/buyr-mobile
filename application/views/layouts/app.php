@@ -7,8 +7,8 @@
 	<link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/fontawesome/css/all.min.css">
    <link rel="stylesheet" href="<?= base_url() ?>/assets/vendors/summernote/dist/summernote-bs4.css">
    <link rel="stylesheet" href="<?= base_url() ?>/assets/css/style.css">
-   <link rel="shortcut icon" href="images/logo/logo.svg" type="image/x-icon">
-   <title>Cleanee - <?= $title ?></title>
+   <link rel="shortcut icon" href="images/logo/icon.png" type="image/x-icon">
+   <title>Buyr - <?= $title ?></title>
 </head>
 <body>
 

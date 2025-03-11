@@ -20,7 +20,7 @@ class Home extends CI_Controller {
 
 	public function detail($id)
 	{
-		$data['title'] = 'Detail Game';
+		$data['title'] = 'Detail Produk';
 		$data['game']	= $this->home->getGameById($id);
 		$data['page']	= 'pages/home/detail';
 		$this->load->view('layouts/app', $data);
